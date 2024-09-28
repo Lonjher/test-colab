@@ -1,6 +1,5 @@
 .body {
     background-color: red;
-<<<<<<< HEAD
     animation: putar 3s ease-in-out infinite;
 }
 
@@ -11,31 +10,21 @@
     100% {
         transform: rotate(360deg);
     }
-=======
 }
 
 .text-hello {
-    color: blue;
+    color: red;
     font-weight: bold;
 }
 
-.text-p {
-    align-items: center;
-    color: gray;
-}
-
 .container {
-    width: 100%;
-    border-color: aqua;
+    width: 100vw;
+    background-color: #fff;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container span {
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
->>>>>>> refs/remotes/origin/main
+.container img{
+    width: 20%;
 }
