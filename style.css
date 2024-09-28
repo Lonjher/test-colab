@@ -1,3 +1,28 @@
 .body {
     background-color: red;
 }
+
+.text-hello {
+    color: blue;
+    font-weight: bold;
+}
+
+.text-p {
+    align-items: center;
+    color: gray;
+}
+
+.container {
+    width: 100%;
+    border-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container span {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
