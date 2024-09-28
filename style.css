@@ -1,6 +1,5 @@
 .body {
     background-color: red;
-<<<<<<< HEAD
     animation: putar 3s ease-in-out infinite;
 }
 
@@ -11,7 +10,6 @@
     100% {
         transform: rotate(360deg);
     }
-=======
 }
 
 .text-hello {
@@ -37,5 +35,4 @@
     color: blue;
     font-weight: bold;
     text-decoration: underline;
->>>>>>> refs/remotes/origin/main
 }
