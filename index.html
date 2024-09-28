@@ -11,8 +11,18 @@
     <header>
         <footer>Link</footer>
     </header>
+    <button>Click</button>
+    <p>ON</p>
     <script>
         console.log("Test 1")
+        const btn = document.querySelector("button")
+        const status = document.querySelector("p")
+        btn.addEventListener("click", (e) => {
+            for(let i = 0; i < 10; i++) {
+                console.log(i)
+            }
+            status.textContent = "ON" ? status.textContent = "OFF" : status.textContent = "ON"
+        })
     </script>
 </body>
 </html>

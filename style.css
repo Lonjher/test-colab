@@ -1,3 +1,13 @@
 .body {
     background-color: red;
+    animation: putar 3s ease-in-out infinite;
+}
+
+@keyframes putar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
