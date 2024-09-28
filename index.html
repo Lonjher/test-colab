@@ -7,10 +7,18 @@
 </head>
 <body>
     <h1 class="text-hello">Hello World!</h1>
-    <p class="text-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea dicta architecto tempore dolorum, placeat officiis excepturi cumque consequuntur n   umquam itaque tenetur temporibus officia, mollitia, illo ipsam nobis magnam error doloremque!</p>
-    <div class="container">
-        <img src="img.png" alt="image">
-        <span>Test Colab</span>
+    <div class="container-fluid">
+        <p class="text-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea dicta architecto tempore dolorum, placeat officiis excepturi cumque consequuntur n   umquam itaque tenetur temporibus officia, mollitia, illo ipsam nobis magnam error doloremque!</p>
+        <div class="container">
+            <img src="img.png" alt="image">
+            <span>Test Colab</span>
+        </div>
+        <header>
+            <footer>Link</footer>
+        </header>
+        <!-- Tombol -->
+        <button>Click</button>
+        <p>ON</p>
     </div>
     <header>
         <footer>Link</footer>
@@ -18,5 +26,23 @@
     <button>Click</button>
     <p>ON</p>
     <script src="script.js"></script>
+
+    <!-- Script java Script -->
+    <script>
+        console.log("Test 1")
+        const btn = document.querySelector("button")
+        const status = document.querySelector("p")
+        btn.addEventListener("click", (e) => {
+            for(let i = 0; i < 10; i++) {
+                console.log(i)
+            }
+            status.textContent = "ON" ? status.textContent = "OFF" : status.textContent = "ON"
+        })
+        console.log("Hello World")
+        let i = 10
+        var j = 20
+        var hasil = i + j
+        console.log(hasil)
+    </script>
 </body>
 </html>
