@@ -13,20 +13,14 @@
 }
 
 .text-hello {
-    color: blue;
+    color: red;
     font-weight: bold;
 }
 
-.text-p {
-    align-items: center;
-    color: gray;
-}
-
 .container {
-    width: 100%;
-    border-color: aqua;
+    width: 100vw;
+    background-color: #fff;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -35,4 +29,8 @@
     color: blue;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.container img{
+    width: 20%;
 }
